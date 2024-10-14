@@ -1,0 +1,66 @@
+.slider {
+    display: relative;
+    height: 300px;
+    width: 900px; /* Largura do carrossel */
+    margin: 0px -32px 0; /* Centraliza o carrossel horizontalmente */
+    position: relative; /* Necessário para posicionamento absoluto dos itens dentro */
+}
+
+/* Estilos para os itens da lista do carrossel */
+.slider li {
+    list-style: none; /* Remove os marcadores padrão da lista */
+    position: absolute; /* Posiciona os itens do carrossel de forma absoluta dentro do contêiner */
+}
+
+/* Estilos para as imagens dentro do carrossel */
+.slider img {
+    display: none; /* Inicialmente esconda todas as imagens */
+    transition: opacity 1s ease-in-out; /* Transição suave de opacidade */
+    width: 190%; /* A largura da imagem é 100% da largura do contêiner */
+    vertical-align: top; /* Alinha as imagens ao topo */
+    visibility: hidden; /* Inicialmente, a visibilidade é oculta */
+}
+
+/* Estilo para a imagem ativa no carrossel */
+.slider img.active {
+    display: block; /* Mostra a imagem ativa */
+    opacity: 1;
+    
+}
+/* Esconde os inputs do tipo radio */
+.slider input {
+    display: none;
+}
+
+/* Mostra a imagem associada ao input radio selecionado */
+.slider li input:checked ~ img {
+    display: block; /* Exibe a imagem quando o input está selecionado */
+    opacity: 1; /* Define a opacidade para 1 */
+    visibility: visible; /* Torna a imagem visível */
+    z-index: 10; /* Define a ordem de empilhamento para garantir que a imagem seja visível sobre outras */
+}
+.conteudo{
+
+    text-decoration: none;
+}
+.conteudo h3{
+    position: relative;
+    color:white;
+    font-size: 30px;
+    background-color: #5c5b5b;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.conteudo h5{
+    position: relative;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}

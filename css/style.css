@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;/*remove a margem*/
+    padding: 0;/*Preenchimento padrão de todos os elementos*/
+    box-sizing: border-box;
+    background-color: #333
+}
+
+/* Estilos para o contêiner do carrossel de imagens */
+
+
+/* Estilos da barra de navegação */
+.navbar {
+    position: fixed; /* Fixa a barra no topo da página */
+    top: 0; /* Alinha a barra ao topo da página */
+    left: 0; /* Alinha a barra ao lado esquerdo da página */
+    width: 100%; /* Faz a barra ocupar a largura total da página */
+    background-color: #333; /* Cor de fundo da barra de navegação */
+    color: white; /* Cor do texto na barra */
+    padding: 10px 20px; /* Aumenta o padding para aumentar a altura da barra */
+    z-index: 1000; /* Garante que a barra fique acima de outros elementos */
+    display: flex; /* Usa flexbox para alinhar os itens */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    justify-content: space-between; /* Espaça os itens para que fiquem nos extremos da barra */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.brand-content{
+    display: relative;
+    display: flex;
+    align-items: center;
+}
+.brand-image{
+    height: 50px;
+    z-index: 1;
+    position: relative;
+    top: -2px;
+    left: 156px;
+}
+.brand-text{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 2;
+    top: 4px;
+}
+/* Estilos para o nome da marca na barra de navegação */
+.navbar-brand {
+    margin-left: 20px; /* Adiciona algum espaço do lado esquerdo da marca */
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+/* Estilos para o link da marca */
+.navbar-brand a {
+    color: white; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+    font-size: 28px; /* Aumenta o tamanho da fonte do link */
+    font-weight: bold; /* Define o texto como negrito */
+
+}
+
+/* Estilos para o menu de navegação */
+
+.navbar-menu {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Usa flexbox para alinhar os itens horizontalmente */
+    margin: 0;
+    margin-top: -3px;
+    margin-left: -90px;
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Estilos para os itens do menu de navegação */
+.navbar-menu li {
+    margin: 0 20px; /* Espaçamento entre os itens do menu */
+}
+
+/* Estilos para os links do menu de navegação */
+.navbar-menu a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 18px; /* Aumenta o tamanho da fonte dos links */
+}
+
+/* Estilos para os links quando o mouse está sobre eles */
+.navbar-menu a:hover {
+    font-size: 20px;
+    color: #f2f2f2; /* Cor ligeiramente mais clara ao passar o mouse */
+}
+
+.navbar-login {
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove padding */
+    margin-right: 20px;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Estilos para os itens do menu de navegação */
+.navbar-login li {
+    margin: 0 20px; /* Espaçamento entre os itens do menu */
+}
+.navbar-login img{
+    margin-top: 0px;
+}
+
+/* Estilos para os links do menu de navegação */
+.navbar-login a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 18px; /* Aumenta o tamanho da fonte dos links */
+}
+
+/* Estilos para os links quando o mouse está sobre eles */
+.navbar-login a:hover {
+    font-size: 20px;
+    color: #f2f2f2; /* Cor ligeiramente mais clara ao passar o mouse */
+}
+.banner-container{
+    position: relative;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    top: 70px;
+}
+.banner-image{
+    position: absolute;
+    top:10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    z-index: -1;
+}
+.banner-image1{
+    position: relative;
+    width: 50px;
+    top: -65px;
+    left: 70px;
+}
+.banner-text{
+    position:r elative;
+    color:white;
+    padding:20px;
+    z-index: 2;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    position:relative;
+    top: 5px;
+    background-color: #333;
+
+}
+.h1{
+    color: white;
+}
