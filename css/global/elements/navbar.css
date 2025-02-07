@@ -1,0 +1,75 @@
+.navbar {
+    position: fixed; /* Fixa a barra no topo da página */
+    width: 100%; /* Faz a barra ocupar a largura total da página */
+    background-color: #333; /* Cor de fundo da barra de navegação */
+    color: white; /* Cor do texto na barra */
+    padding: 10px 20px; /* Aumenta o padding para aumentar a altura da barra */
+    z-index: 1000; /* Garante que a barra fique acima de outros elementos */
+    display: flex; /* Usa flexbox para alinhar os itens */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    justify-content: space-between; /* Espaça os itens para que fiquem nos extremos da barra */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    margin-left: 20px; /* Adiciona algum espaço do lado esquerdo da marca */
+}
+.navbar-brand a {
+    color: white; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+    font-size: 28px; /* Aumenta o tamanho da fonte do link */
+    font-weight: bold; /* Define o texto como negrito */
+
+}
+.navbar-menu {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Usa flexbox para alinhar os itens horizontalmente */
+    margin: 0;
+    margin-top: -3px;
+    margin-left: -90px;
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+/* Estilos para os itens do menu de navegação */
+.navbar-menu li {
+    margin: 0 20px; /* Espaçamento entre os itens do menu */
+}
+
+/* Estilos para os links do menu de navegação */
+.navbar-menu a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 18px; /* Aumenta o tamanho da fonte dos links */
+}
+
+/* Estilos para os links quando o mouse está sobre eles */
+.navbar-menu a:hover {
+    font-size: 20px;
+    color: #f2f2f2; /* Cor ligeiramente mais clara ao passar o mouse */
+}
+
+.navbar-login {
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove padding */
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+/* Estilos para os itens do menu de navegação */
+.navbar-login li {
+    margin: 0 20px; /* Espaçamento entre os itens do menu */
+}
+.navbar-login img{
+    margin-top: 0px;
+}
+
+/* Estilos para os links do menu de navegação */
+.navbar-login a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 18px; /* Aumenta o tamanho da fonte dos links */
+}
+
+/* Estilos para os links quando o mouse está sobre eles */
+.navbar-login a:hover {
+    font-size: 20px;
+    color: #f2f2f2; /* Cor ligeiramente mais clara ao passar o mouse */
+}

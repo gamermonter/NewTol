@@ -1,0 +1,16 @@
+.brand-image{
+    height: 50px;
+    z-index: 1;
+    position: relative;
+    top: -2px;
+    left: 156px;
+}
+
+.brand-text{
+    position: relative;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 2;
+    top: 4px;
+}

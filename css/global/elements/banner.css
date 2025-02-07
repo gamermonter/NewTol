@@ -1,0 +1,28 @@
+.banner-container{
+    position: relative;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    top: 70px;
+}
+.banner-image{
+    position: absolute;
+    top:10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    z-index: -1;
+}
+.banner-image1{
+    position: relative;
+    width: 50px;
+    top: -65px;
+    left: 70px;
+}
+.banner-text{
+    position:r elative;
+    color:white;
+    padding:20px;
+    z-index: 2;
+}

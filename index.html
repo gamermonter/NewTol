@@ -11,66 +11,82 @@
     <title>Bem vindo! ao NewTol</title>
 </head>
 <body>
-    
-    <nav class="navbar">
-        <div class="navbar-brand">
-                <img src="img/chave.png" class="brand-image">
-            <a class="brand-text">NewTol</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/chave.png" class="brand-image" alt="Logo">
+                NewTol
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/suporte.html">Suporte</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/conta.html"><img src="img/login.png" height="15" alt="Login"> Login</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <ul class="navbar-menu">
-            <li><a href="index.html">Loja</a></li>
-            <li><a href="html/suporte.html">Suporte</a></li>
-        </ul>
-        <ul class="navbar-login">
-            <li><a href="html/conta.html"><img src="img/login.png" height="15"> Login</a> </li>
-        </ul>
     </nav>
     
-
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/gtaVI.jpg" class="d-block w-100" alt="GTA VI">
+            </div>
+            <div class="carousel-item">
+                <img src="img/tf.jpg" class="d-block w-100" alt="TF">
+            </div>
+            <div class="carousel-item">
+                <img src="img/fifa25.jpg" class="d-block w-100" alt="FIFA 25">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
     
-    <ul class="slider">
-        <li>
-            <input type="radio" id="slide1" name="slide" checked>
-            <img src="img/gtaVI.jpg" class="active" />
-        </li>
-        <li>
-            <input type="radio" id="slide3" name="slide">
-            <img src="img/tf.jpg" />
-        </li>
-        <li>
-            <input type="radio" id="slide3" name="slide">
-            <img src="img/fifa25.jpg" />
-        </li>
-    </ul>
-    <br>
-    <br>
+    <div class="container mt-4">
+        <div class="conteudo">
+            <h3>Publique seu Jogo</h3>
+            <h5>Para publicar seu jogo,<p>fale nome e sua categoria.</p></h5>
+            <form>
+                <div class="mb-3">
+                    <label for="nomeJogo" class="form-label">Qual nome do jogo:</label>
+                    <input type="text" class="form-control" id="nomeJogo" placeholder="Digite o nome:" required>
+                </div>
+                <div class="mb-3">
+                    <label for="categoriaJogo" class="form-label">Qual categoria?:</label>
+                    <input type="text" class="form-control" id="categoriaJogo" placeholder="Digite a categoria:" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Qual seu email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu melhor email:" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Publique seu jogo!! :)</button>
+            </form>
+        </div>
+    </div>
     
-    <div class="conteudo">
-        <h3>Publique seu Jogo</h3>
-
-        <h5>
-            Para publicar seu jogo,<p>fale nome e sua categoria.</p> 
-        </h5>
-    <div class="form">
-        <label for="#">Qual nome do jogo:</label>
-        <input type="text" placeholder="Digite o nome:" required>
-    </div>
-    <div class="form">
-        <label for="#">Qual categoria?:</label>
-        <input type="text" placeholder="Digite a categoria:" required>
-    </div>
-    <div class="form">
-        <label for="#">Qual seu email:</label>
-        <input type="text" placeholder="Digite seu melhor email:" required>
-    </div>
-    <div class="input-group">
-        <button>Publique seu jogo!! :)</button>
-    </div>    
-    </div>
-        <script src="js/java.js"></script>
-
-    
+    <script src="js/java.js"></script>
 </body>
-
 </html>

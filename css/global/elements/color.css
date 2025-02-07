@@ -1,0 +1,11 @@
+*{
+    background-color: var(--cinza);
+}
+
+.h1{
+    color: white;
+}
+
+.container{
+    background-color: #333;
+}
