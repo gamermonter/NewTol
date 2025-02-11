@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;/*remove a margem*/
+    padding: 0;/*Preenchimento padrão de todos os elementos*/
+    box-sizing: border-box;
+    background-color: #333
+}
+/* Estilos da barra de navegação */
+.navbar {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    background-color: #333; 
+    color: white; 
+    padding: 10px 20px; 
+    z-index: 1000;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.brand-content{
+    display: relative;
+    display: flex;
+    align-items: center;
+}
+.brand-image{
+    height: 50px;
+    z-index: 1;
+    position: relative;
+    top: -2px;
+    left: 156px;
+}
+.brand-text{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 2;
+    top: 4px;
+}
+/* Estilos para o nome da marca na barra de navegação */
+.banner-container{
+    position: relative;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    top: 70px;
+}
+.banner-image{
+    position: absolute;
+    top:10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    z-index: -1;
+}
+.banner-image1{
+    position: relative;
+    width: 50px;
+    top: -65px;
+    left: 70px;
+}
+.banner-text{
+    position:r elative;
+    color:white;
+    padding:20px;
+    z-index: 2;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    position:relative;
+    top: 5px;
+    background-color: #333;
+
+}
+.h1{
+    color: white;
+}

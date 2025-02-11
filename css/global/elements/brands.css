@@ -14,3 +14,7 @@
     z-index: 2;
     top: 4px;
 }
+
+.navbar-brand img{
+    max-height: 40px;
+}

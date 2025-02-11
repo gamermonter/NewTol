@@ -1,16 +1,8 @@
-.banner-text{
+
+.brand-text, .navbar-brand, .banner-text{
     font-family: 'Courier New', Courier, monospace;
 }
-.brand-text{
-    font-family: 'Courier New', Courier, monospace;
-}
-.navbar-brand {
-    font-family: 'Courier New', Courier, monospace;
-}
-.navbar-menu {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.navbar-login {
+.navbar-menu, .navbar-login{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .conteudo h5{

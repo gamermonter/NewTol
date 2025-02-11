@@ -57,8 +57,10 @@
     color: white;
     margin-top: 30px;
     text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .form{
     color: white;
     text-align: center;
+    font-family: sans-serif;
 }
