@@ -1,11 +1,15 @@
 
-.brand-text, .navbar-brand, .banner-text{
-    font-family: 'Courier New', Courier, monospace;
-}
 
 .conteudo h5{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .form{
     font-family: sans-serif;
+}
+nav h3{
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav a {
+    font-family: 'Roboto', sans-serif;
 }
